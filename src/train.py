@@ -39,7 +39,7 @@ def train(model_name):
 
     losses = []
 
-    epochs = 1
+    epochs = 3
 
     model.train()
 
@@ -82,7 +82,7 @@ def train(model_name):
 
             running_loss += loss.item()
 
-            if batch_idx % 200 == 0:
+            if batch_idx % 50 == 0:
 
                 print(
                     f"Epoch {epoch+1} "
@@ -92,7 +92,7 @@ def train(model_name):
 
             losses.append(loss.item())
 
-            if batch_idx >= 5:
+            if batch_idx >= 500:
                 break
 
         avg_loss = running_loss / (batch_idx + 1)
