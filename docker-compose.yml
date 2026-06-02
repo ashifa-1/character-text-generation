@@ -4,6 +4,7 @@ services:
     container_name: character-text-generation
 
     volumes:
+      - ./:/app
       - ./input:/app/input
       - ./results:/app/results
       - ./models:/app/models
