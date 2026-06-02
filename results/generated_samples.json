@@ -1,0 +1,30 @@
+{
+  "lstm": {
+    "temperature_0.5": [
+      "To be the feel of the pity to the butter...",
+      "When yet thou begin with a more..."
+    ],
+    "temperature_1.0": [
+      "To been fodgel'd what was good mercy...",
+      "WESTOMORELAND: O executation!..."
+    ],
+    "temperature_1.5": [
+      "To befoongefs of maems...",
+      "MIRANDA: Why certion..."
+    ]
+  },
+  "transformer": {
+    "temperature_0.5": [
+      "To beeeeeeeeeeeeeeeeeeeee",
+      "To beeeeeeeeeeeeeeeeeeeee"
+    ],
+    "temperature_1.0": [
+      "To beeeeeeeeeeeeeeeeeeeee",
+      "To beeeeeeeeeeeeeeeeeeeee"
+    ],
+    "temperature_1.5": [
+      "To beeeeeeeeeeeeeeeeeeeee",
+      "To beeeeeeeeeeeeeeeeeeeee"
+    ]
+  }
+}
